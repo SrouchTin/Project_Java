@@ -61,7 +61,7 @@ public class Banking {
     }
 
 public static void fixDeposit(Scanner scanner) {
-    if (balance == 0) {
+    if (balance <= 0) {
         System.out.println("You cannot open a Fixed Deposit with $0 balance.");
         return;
     }
